@@ -1,0 +1,77 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(195, 150, 237);
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    margin: 0px 50px 10px 50px;
+    min-height: 100vh;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px black;
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 214, 32);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    background-color: blueviolet;
+    color: rgb(233, 233, 233);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 8px;
+    text-align: center; 
+ }
+img, p {
+    display: inline-block;
+}
+.img { */ Para imagem do programa
+
+}
+.container {
+    display: flex;
+}
+.shadow {
+    box-shadow: 5px 5px 20px black;
+   
+}
+.contato {
+ background-color: blueviolet;
+}
+.zoom { /* Esse zoom é para a imagem */
+    width: 340px;
+    border-radius: 20%;
+    margin: -20px 7px 7px 20px;
+    box-shadow: 2px 2px 10px black;
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.01);
+}
+.zoom2 { /* Esse zoom é para o sub-título */
+    transition: transform .2s;
+}
+.zoom2:hover {
+    transform: scale(1.01);
+}
+.corVerde {   /* Para palavras específicas */
+    color: rgb(21, 209, 21);
+   
+}
+.titulo {
+    margin-top: -40px;
+    background-color: blueviolet;
+}
